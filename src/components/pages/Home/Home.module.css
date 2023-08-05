@@ -1,0 +1,17 @@
+.home-container {
+  height: 90vh;
+  margin-top: 90px;
+}
+
+.home-content-container {
+  margin-top: 2%;
+}
+
+.home-circular-grid {
+  margin-top: 3rem;
+  display: grid;
+  place-items: center;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  margin: 0 auto;
+}
