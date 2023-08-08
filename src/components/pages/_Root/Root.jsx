@@ -7,7 +7,7 @@ const Root = () => {
     <header>
       <Navbar />
       <Outlet id={"syllabus"} />
-      <Footer />
+      {/* <Footer /> */}
     </header>
   );
 };
