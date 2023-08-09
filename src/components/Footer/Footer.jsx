@@ -8,6 +8,8 @@ const Footer = () => {
           <ul className={style["footer-link-box"]}>
             <li className={style["link"]}>
               <a href="https://twitter.com/ATechAjay">
+                {/* <i className="fa-brands fa-x-twitter"></i> */}
+                {/* <i className="fa-brands fa-square-x-twitter"></i> */}
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
@@ -39,7 +41,7 @@ const Footer = () => {
           </ul>
         </section>
         <div className={style["footer-author"]}>
-          <p>&copy; Created by ❤️ Ajay Yadav</p>
+          <p>&copy; Created with ❤️ by Ajay Yadav</p>
         </div>
       </footer>
     </div>
