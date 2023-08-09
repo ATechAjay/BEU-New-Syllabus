@@ -71,7 +71,7 @@
 
 .link a {
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .link,
@@ -95,6 +95,9 @@
   border: 3px solid #000000;
 }
 
+.footer-author p {
+  margin: 0;
+}
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -132,9 +135,5 @@
 
   .link .fab {
     font-size: 22px;
-  }
-
-  .footer-author p {
-    font-size: 16px;
   }
 }
