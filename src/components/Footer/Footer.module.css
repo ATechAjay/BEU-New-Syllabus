@@ -13,12 +13,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 36px;
 }
 
 .footer-heading {
   font-size: 42px;
   color: #000000;
+  padding-top: 18px;
 }
 
 .footer-author {
@@ -38,7 +39,7 @@
 .link {
   list-style: none;
   /* filter: brightness(0) invert(1); */
-  border: 3px solid #000000;
+  border: 2px solid #000000;
   transition: all 0.5s;
   height: 70px;
   width: 70px;
@@ -84,7 +85,7 @@
 }
 
 .link:hover {
-  transform: translateY(-1.5rem);
+  transform: translateY(-15px);
 }
 
 .link:hover .fab {
@@ -92,7 +93,7 @@
 }
 
 .link:hover {
-  border: 3px solid #000000;
+  border: 2px solid #000000;
 }
 
 .footer-author p {
