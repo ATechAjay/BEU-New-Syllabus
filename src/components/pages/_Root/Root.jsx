@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
+import style from "./Root.module.css";
 
 const Root = () => {
   return (
-    <header>
+    <header className={style.main}>
       <Navbar />
-      <Outlet id={"syllabus"} />
-      {/* <Footer /> */}
+      <Outlet />
+      <Footer />
     </header>
   );
 };
