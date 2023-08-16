@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Card from "../../Card/Card";
 import Heading from "../../Card/Heading/Heading";
 import style from "./Home.module.css";

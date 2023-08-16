@@ -4,7 +4,9 @@ const Footer = () => {
     <div className={style["footer-container"]}>
       <footer className={style["footer-section"]}>
         <section className={style["footer-cta"]}>
-          <h1 className={style["footer-heading"]}>Let's connect with me</h1>
+          <h1 className={style["footer-heading"]}>
+            Let&apos;s connect with me
+          </h1>
           <ul className={style["footer-link-box"]}>
             <li className={style["link"]}>
               <a href="https://twitter.com/ATechAjay">
