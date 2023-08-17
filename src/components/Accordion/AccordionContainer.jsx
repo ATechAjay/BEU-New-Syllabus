@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Heading from "../Card/Heading/Heading";
 import AccordionItem from "./AccordionItem";
 import style from "./AccordionContainer.module.css";

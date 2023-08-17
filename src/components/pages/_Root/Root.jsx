@@ -5,11 +5,13 @@ import style from "./Root.module.css";
 
 const Root = () => {
   return (
-    <header className={style.main}>
-      <Navbar />
-      <Outlet />
+    <>
+      <header className={style.main}>
+        <Navbar />
+        <Outlet />
+      </header>
       <Footer />
-    </header>
+    </>
   );
 };
 
