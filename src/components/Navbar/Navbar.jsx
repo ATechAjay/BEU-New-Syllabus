@@ -25,18 +25,23 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto g-5">
             <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="#">
                 University
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact Us
+              <Link className="nav-link" to="/suggest-feature">
+                Suggest
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#">
-                About Us
+              <Link className="nav-link" to="/contact">
+                Contact Us
               </Link>
             </li>
           </ul>

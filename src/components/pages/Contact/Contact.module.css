@@ -1,7 +1,15 @@
 .container {
   /* margin-top: 70px; */
+  /* background: red; */
 }
 
 .form {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
   text-align: center;
 }

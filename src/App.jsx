@@ -14,6 +14,7 @@ import {
 // import Accordion from "./components/Accordion/Accordion";
 import AccordionContainer from "./components/Accordion/AccordionContainer";
 import Contact from "./components/pages/Contact/Contact";
+import Suggest from "./components/pages/Suggest/Suggest";
 const appRouter = createBrowserRouter([
   // Add an extra route configuration for the nested route.
   {
@@ -39,6 +40,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/suggest-feature",
+        element: <Suggest />,
       },
       {
         path: "/btech/cse",
