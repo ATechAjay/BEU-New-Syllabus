@@ -5,10 +5,10 @@ import style from "./Root.module.css";
 const Root = () => {
   return (
     <>
+      <header>
+        <Navbar />
+      </header>
       <main className={style.main}>
-        <header>
-          <Navbar />
-        </header>
         <Outlet />
       </main>
     </>
