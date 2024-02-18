@@ -1,5 +1,5 @@
-import style from "./Footer.module.css";
-const Footer = () => {
+import style from "./Social.module.css";
+const Social = () => {
   return (
     <div className={style["footer-container"]}>
       <footer className={style["footer-section"]}>
@@ -50,4 +50,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Social;

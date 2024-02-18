@@ -1,11 +1,13 @@
 .circle-container {
   position: relative;
-  height: 13rem;
-  width: 13rem;
+  height: 10rem;
+  width: 10rem;
 }
+
 .circle-container:hover img {
   transform: scale(1.1);
 }
+
 .circle-link {
   height: 100%;
   width: 100%;
@@ -30,13 +32,11 @@
   transform: translate(-50%, -50%);
 
   color: #fff;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   transition: all 0.2s;
 }
-/* .circle-container:hover .course-name {
-          color: #00b1ba;
-        } */
+
 .circle-container:hover img {
   border: 3px solid #00d7e2;
   opacity: 0.9;

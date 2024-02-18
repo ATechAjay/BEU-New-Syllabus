@@ -2,8 +2,9 @@
   background: #00f2ff;
   color: #333;
   width: max-content;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 3rem;
   font-size: 18px;
   border-radius: 100px;
   cursor: default;
+  margin: 0 auto;
 }

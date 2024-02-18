@@ -13,6 +13,7 @@ import {
 } from "./components/utils/Constants";
 // import Accordion from "./components/Accordion/Accordion";
 import AccordionContainer from "./components/Accordion/AccordionContainer";
+import Contact from "./components/pages/Contact/Contact";
 const appRouter = createBrowserRouter([
   // Add an extra route configuration for the nested route.
   {
@@ -34,6 +35,10 @@ const appRouter = createBrowserRouter([
             cardData={BTECH_PAGE_CARD_DATA}
           />
         ),
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
       {
         path: "/btech/cse",
