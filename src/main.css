@@ -8,9 +8,3 @@ body {
   background: #333;
   color: #fff;
 }
-
-@media (max-width: 590px) {
-  body {
-    padding: 20px;
-  }
-}
