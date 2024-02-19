@@ -43,7 +43,7 @@ const Social = () => {
           </ul>
         </section>
         <div className={style["footer-author"]}>
-          <p>&copy; Created with ❤️ by Ajay Yadav</p>
+          <p>&copy; Made with ❤️ by Ajay Yadav</p>
         </div>
       </footer>
     </div>

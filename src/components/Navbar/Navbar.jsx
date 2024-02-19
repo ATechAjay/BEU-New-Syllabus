@@ -29,11 +29,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="#">
-                University
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/suggest-feature">
                 Suggest
