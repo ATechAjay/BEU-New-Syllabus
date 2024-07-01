@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import Home from "./components/pages/Home/Home";
+
 import Error from "./components/pages/Error/Error";
-import Root from "./components/pages/_Root/Root";
+import Root from "./components/Root/Root";
 import Home from "./components/pages/Home/Home";
 import {
   HOME_PAGE_CARD_DATA,
@@ -12,7 +12,7 @@ import {
   MBBS_PAGE_CARD_DATA,
 } from "./components/utils/Constants";
 
-import SemesterContainer from "./components/Accordion/SemesterContainer";
+import SemesterContainer from "./components/Root/SemesterContainer";
 import Contact from "./components/pages/Contact/Contact";
 import Suggest from "./components/pages/Suggest/Suggest";
 import AccordionItem from "./components/Accordion/AccordionItem";

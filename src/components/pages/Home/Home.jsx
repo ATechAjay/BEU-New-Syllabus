@@ -1,10 +1,9 @@
-/* eslint-disable react/prop-types */
-import Card from "../../Card/Card";
+import Card from "../../Card/Circular/Card";
 import Heading from "../../Card/Heading/Heading";
 import style from "./Home.module.css";
 const Home = (props) => {
   const newCard = props.cardData;
-  //   console.log(newCard);
+
   return (
     <div className={style["home-container"]} id="syllabus">
       <div className={`${"container " + style["home-content-container"]}`}>
