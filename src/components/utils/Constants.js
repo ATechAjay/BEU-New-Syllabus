@@ -12,7 +12,7 @@ import CIVIL from "../../assets/BTech Branch Images/civil.jpg";
 import MECH from "../../assets/BTech Branch Images/mechanical.jpg";
 import ELEC from "../../assets/BTech Branch Images/electrical.jpg";
 
-export const FIRST_PAGE_CARD_DATA = [
+export const HOME_PAGE_CARD_DATA = [
   {
     path: "/btech",
     cardImage: BTECH,

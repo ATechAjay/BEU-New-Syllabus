@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import Home from "./components/pages/Home/Home";
-import Error from "./components/pages/Error/Error";
-import Root from "./components/pages/_Root/Root";
-import Home from "./components/pages/Home/Home";
+import Error from "../components/pages/Error/Error";
+import Root from "../components/pages/_Root/Root";
+import Home from "../components/pages/Home/Home";
 import {
-  HOME_PAGE_CARD_DATA,
+  FIRST_PAGE_CARD_DATA,
   BTECH_PAGE_CARD_DATA,
   GATE_PAGE_CARD_DATA,
   BCA_PAGE_CARD_DATA,
@@ -27,7 +27,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/",
         element: (
-          <Home heading="Syllabus Branch-Wise" cardData={HOME_PAGE_CARD_DATA} />
+          <Home
+            heading="Syllabus Branch-Wise"
+            cardData={FIRST_PAGE_CARD_DATA}
+          />
         ),
       },
       {
@@ -55,7 +58,6 @@ const appRouter = createBrowserRouter([
           </>
         ),
       },
-      // Semester 1 component goes here
       {
         path: "/btech/cse/semester-1",
         element: (
@@ -68,91 +70,6 @@ const appRouter = createBrowserRouter([
           </>
         ),
       },
-      {
-        path: "/btech/cse/semester-2",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-2"
-              title={"This will be title 2"}
-              body={"It be a body 2"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-3",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-3"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-4",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-4"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-5",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-5"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-6",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-6"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-7",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-7"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-      {
-        path: "/btech/cse/semester-8",
-        element: (
-          <>
-            <AccordionItem
-              heading="Semester-8"
-              title={"This will be title"}
-              body={"It be a body"}
-            />
-          </>
-        ),
-      },
-
       {
         path: "/btech/civil",
         element: (
@@ -562,9 +479,3 @@ const appRouter = createBrowserRouter([
     ],
   },
 ]);
-
-function App() {
-  return <RouterProvider router={appRouter} />;
-}
-
-export default App;

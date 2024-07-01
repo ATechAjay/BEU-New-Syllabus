@@ -1,0 +1,12 @@
+.accordion-container {
+  margin-top: 78px;
+  padding: 0 40px;
+}
+
+.semester_container {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

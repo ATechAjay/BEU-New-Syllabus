@@ -32,7 +32,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <Link className="nav-link" to="/suggest-feature">
-                Suggest
+                Suggestion
               </Link>
             </li>
             <li className="nav-item">
